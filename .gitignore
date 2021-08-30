@@ -61,7 +61,6 @@ lib/
 
 # Built application files
 *.apk
-*.aar
 *.ap_
 *.aab
 
