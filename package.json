@@ -30,9 +30,7 @@
     "release": "release-it",
     "example": "yarn --cwd example",
     "pods": "cd example && pod-install --quiet",
-    "bootstrap": "git submodule update --init --recursive && yarn example && yarn && yarn pods",
-    "prepack": "mv android android-tmp && mv android-npm android",
-    "postpack": "mv android android-npm && mv android-tmp android"
+    "bootstrap": "git submodule update --init --recursive && yarn example && yarn && yarn pods"
   },
   "keywords": [
     "react-native",
